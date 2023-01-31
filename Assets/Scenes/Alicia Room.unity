@@ -204,6 +204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1063440546}
     m_Modifications:
+    - target: {fileID: -8144336062563731167, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 190737620782889315, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
       propertyPath: m_Name
       value: Rug_Oval_Purple (1)
@@ -274,6 +278,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1063440546}
     m_Modifications:
+    - target: {fileID: -8144336062563731167, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 190737620782889315, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
       propertyPath: m_Name
       value: Rug_Oval_Purple (4)
@@ -842,7 +850,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 512
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -874,7 +882,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 1
+  m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 1
@@ -4098,6 +4106,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1063440546}
     m_Modifications:
+    - target: {fileID: -8144336062563731167, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 190737620782889315, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
       propertyPath: m_Name
       value: Rug_Oval_Purple
@@ -5375,6 +5387,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1063440546}
     m_Modifications:
+    - target: {fileID: -8144336062563731167, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 190737620782889315, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
       propertyPath: m_Name
       value: Rug_Oval_Purple (2)
@@ -5817,6 +5833,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1063440546}
     m_Modifications:
+    - target: {fileID: -8144336062563731167, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 190737620782889315, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
       propertyPath: m_Name
       value: Rug_Oval_Purple (3)
