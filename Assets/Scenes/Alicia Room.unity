@@ -2119,6 +2119,7 @@ GameObject:
   - component: {fileID: 505562323}
   - component: {fileID: 505562325}
   - component: {fileID: 505562326}
+  - component: {fileID: 505562327}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -2286,9 +2287,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 505562327}
+        m_TargetAssemblyTypeName: TeleportPlayer, Assembly-CSharp
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnRelease:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &505562327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505562319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9469e5ef7ce252d48a689ad38d7b5695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchor: {fileID: 1244431099}
+  provider: {fileID: 505562325}
 --- !u!1 &510978109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,6 +5737,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6463661162923987159, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
   m_PrefabInstance: {fileID: 1817301593}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1244431099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8144336062563731167, guid: 2a0989c512f34104c9d5ca8e832c0b21, type: 3}
+  m_PrefabInstance: {fileID: 1817301593}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2f4617667341945b5a7756e14b62d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1283222017
 GameObject:
   m_ObjectHideFlags: 0
